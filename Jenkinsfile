@@ -11,7 +11,7 @@ pipeline {
         stage('Git Checkout') {
             steps {
                 echo 'Code checkout.'
-                git branch: 'final', url: 'https://github.com/SereyvicheaSaro/DevOps.git'
+                git branch: 'jenkins', url: 'https://github.com/SereyvicheaSaro/DevOps.git'
             }
         }
         stage('Build using Tools') {
